@@ -1,3 +1,6 @@
 [submodule "go2uvm"]
 	path = go2uvm
 	url = https://github.com/go2uvm/go2uvm
+[submodule "svunit"]
+	path = svunit
+	url = https://github.com/svenka3/svunit
