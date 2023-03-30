@@ -1,0 +1,5 @@
+{ signal: [
+  { name: "clk",  wave: "P......" },
+  { name: "vlb_wr_rd_valid",  wave: "x.01.zx" },
+  { name: "vlb_wr_rd", wave: "0.1..0." }
+]}
