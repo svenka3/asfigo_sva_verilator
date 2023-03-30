@@ -4,3 +4,4 @@
 [submodule "svunit"]
 	path = svunit
 	url = https://github.com/svenka3/svunit
+	branch = verilator_support
