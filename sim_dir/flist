@@ -1,0 +1,3 @@
+-DVERILATOR_UVM_LITE
+../go2uvm/go2uvm/src/vw_go2uvm_pkg.sv
+
