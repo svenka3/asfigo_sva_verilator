@@ -108,6 +108,10 @@ module apb_slave_unit_test;
 
     idle ();
     wait_for_n_clks (10); 
+    `include "test_a_p_af_rst_penable.sv"
+    `include "test_a_p_af_rst_prdata.sv"
+    `include "test_a_p_af_rst_pwdata.sv"
+    `include "test_a_p_af_rst_pwrite.sv"
 
     `include "test_a_p_af_psel_pen.sv"
     `include "test_a_p_af_active_one_clk.sv"
@@ -115,15 +119,9 @@ module apb_slave_unit_test;
     `include "test_a_p_af_idle_pwrite_stable.sv"
 
     `include "test_a_p_af_paddr_stable_bw_setup_and_en.sv"
-    `include "test_a_p_af_pwdata_stable_bw_setup_and_en.sv"
-    `include "test_a_p_af_pwrite_stable_bw_setup_and_en.sv"
     `include "test_a_p_af_rst_paddr.sv"
-    /*
-    `include "test_a_p_af_rst_penable.sv"
-    `include "test_a_p_af_rst_prdata.sv"
-    `include "test_a_p_af_rst_pwdata.sv"
-    `include "test_a_p_af_rst_pwrite.sv"
-*/
+    `include "test_a_p_af_pwrite_stable_bw_setup_and_en.sv"
+    `include "test_a_p_af_pwdata_stable_bw_setup_and_en.sv"
 
 
 
